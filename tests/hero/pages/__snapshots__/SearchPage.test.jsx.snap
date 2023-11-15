@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test on SearchPage should match snapshot 1`] = `
+<div>
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h3>
+        Searh
+      </h3>
+      <hr />
+      <form
+        aria-label="form"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchValue"
+          placeholder="search..."
+          type="text"
+          value=""
+        />
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h3>
+        Results
+      </h3>
+      <hr />
+      <div
+        class="alert alert-primary animate__animated animate__fadeIn"
+      >
+        Searh a Hero
+      </div>
+      <div
+        aria-label="alert"
+        class="alert alert-danger animate__animated animate__fadeIn"
+        style="display: none;"
+      >
+        No hero with 
+        <b />
+      </div>
+    </div>
+  </div>
+</div>
+`;
